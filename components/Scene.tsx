@@ -4,6 +4,7 @@ import { Suspense, useEffect } from "react"
 import { Object } from "./Object"
 import { Sidebar } from "./Sidebar"
 import { useStore, Scene } from "../store"
+import { Button } from "@/components/ui/button"
 
 export function Scene() {
   const { present, loadScene } = useStore()
